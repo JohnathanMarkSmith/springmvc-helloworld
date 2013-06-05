@@ -103,8 +103,18 @@ Now lets setup a basic controller to display a page:
 
 Thats all it takes..
 
+## Getting The Project and Running It
+
+To get this project and run it you will need to follow the following steps:
+
+    git clone  git@github.com:JohnathanMarkSmith/springmvc-helloworld.git
+    cd springmvc-helloworld/
+    mvn tomcat7:run
+
+Now open your web brower and goto http://127.0.0.1:8080/springmvc-helloworld/
+
+This its... Have run with it...
 
 
+If you have any questions or comments please email me at john@johnathanmarksmith.com or checkout my web site http://JohnathanMarkSmith.com
 
-
-after you clone it you can run the example but typing "mvn tomcat7:run"
