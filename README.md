@@ -2,7 +2,7 @@
 
 This is a very basic example of using Spring MVC with JavaConfig to make a helloworld web apps.
 
-The first part of this is to create a config class for the web app.  below is a sample of the config class we are going to use:
+The first part of this is to create a configuration class for the web app.  below is a sample of the configuration class we are going to use:
 
     Configuration
     @EnableWebMvc
@@ -51,7 +51,7 @@ The first part of this is to create a config class for the web app.  below is a 
     }
 
 
-Next you have to setup the web.xml file to use the above config class, we do this but setting the contectConfigLocation to the package of the config class. see below:
+Next you have to setup the web.xml file to use the above configuration class, we do this but setting the contectConfigLocation to the package of the configuration class. see below:
 
     <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xmlns="http://java.sun.com/xml/ns/javaee"
