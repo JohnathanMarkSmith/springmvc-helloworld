@@ -16,7 +16,7 @@ The first part of this is to create a configuration class for the web app.  belo
         public ViewResolver resolver()
         {
             UrlBasedViewResolver url = new UrlBasedViewResolver();
-            url.setPrefix("views/");
+            url.setPrefix("/views/");
             url.setViewClass(JstlView.class);
             url.setSuffix(".jsp");
             return url;
