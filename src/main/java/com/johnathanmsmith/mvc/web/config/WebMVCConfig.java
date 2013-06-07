@@ -19,11 +19,11 @@ import java.util.Properties;
 /**
  * Date:   6/5/13 / 7:57 AM
  * Author: Johnathan Mark Smith
- * Email:  johnathansmith1969@gmail.com
+ * Email:  john@johnathanmarksmith.com
  * <p/>
  * Comments:
- *
- *    This is a VERY basic Spring Config setup for a web apps
+ * <p/>
+ * This is a VERY basic Spring Config setup for a web apps
  */
 
 @Configuration
