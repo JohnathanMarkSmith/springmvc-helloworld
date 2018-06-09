@@ -30,7 +30,7 @@ class IndexController
         /*
            I am going to display the helloworld.jsp page now :)
          */
-        logger.debug("made it to controller");
+        logger.debug("made it to controller1");
         return "helloworld";
 
     }
